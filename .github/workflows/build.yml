@@ -1,0 +1,25 @@
+name: Build Android .so Library
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Compile .so for Android (arm64-v8a)
+      run: |
+        $ANDROID_NDK_LATEST_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++ \
+        -O3 -fPIC -shared Minh.cpp -o libaimlock.so
+
+    - name: Upload Compiled .so Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: libaimlock-arm64
+        path: libaimlock.so
