@@ -1,142 +1,34 @@
-#include <fstream>
-#include <string>
-
-namespace {
-    const std::string configData = R"raw_config(Aimlock
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="1"> #mo bai
-  <component name="" JavaVersion="1" />  
-       </option>
-   <component name=""WriteSettingHideVersion="1" />
-      <option name="bin.mt.plus">
-      <Asset$DataAsset>
-        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
-        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="COMPRESS" strings="true" />
-      </Asset$DataAsset>
-       </option>
-  <component name="" JavaVersion="1" />  
-  </project>
-<project version="2"> #than bai
-      <Asset$DataAsset>#1
-        <option name="on=1" strings="$WRITE_FILE$" />
- <option name="off=0" 
-strings="$WRITE_FILE$" />
-       <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ RDR_aimLockBase64_0x7608F0_set_on_auto_cws.uncrack.list=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ RDR_aimLockBase64_0x7608F0_set_on_auto_cws.uncrack.list=1"
-strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ RDR_aimLockBase64_0x7608F0_set_on_auto_cws.uncrack.list=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-<project version="3"> #ket bai
-      <Asset$DataAsset> 
- <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-
-
-
-Aimlock 
-
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="1"> #mo bai
-  <component name="" JavaVersion="1" />  
-       </option>
-   <component name=""WriteSettingHideVersion="1" />
-      <option name="">
-      <Asset$DataAsset>
-        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
-        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="COMPRESS" strings="true" />
-      </Asset$DataAsset>
-       </option>
-  <component name="" JavaVersion="1" />  
-  </project>
-<project version="2"> #than bai
-      <Asset$DataAsset>#1
-        <option name="on=1" strings="$WRITE_FILE$" />
- <option name="off=0" 
-strings="$WRITE_FILE$" />
-       <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ OptimalAimlockffbasex64_set_on_auto_cws.uncrack.strings=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ OptimalAimlockffbasex64_set_on_auto_cws.uncrack.strings=1"
-strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.act_conf_seclect_sync_device_act_allow.file_code_unlock_connectInject_ OptimalAimlockffbasex64_set_on_auto_cws.uncrack.strings=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-<project version="3"> #ket bai
-      <Asset$DataAsset> 
- <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-
-
-
-
-Aimlock
-
-
-
-
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="1"> #mo bai
-  <component name="" JavaVersion="1" />  
-       </option>
-   <component name=""WriteSettingHideVersion="1" />
-      <option name="bin.mt.plus">
-      <Asset$DataAsset>
-        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
-        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
-        <option name="COMPRESS" strings="true" />
-      </Asset$DataAsset>
-       </option>
-  <component name="" JavaVersion="1" />  
-  </project>
-<project version="2"> #than bai
-      <Asset$DataAsset>#1
-        <option name="on=1" strings="$WRITE_FILE$" />
- <option name="off=0" 
-strings="$WRITE_FILE$" />
-       <option name="com.acp_conf_seclect_seclect_sync_device_act_rick.file_code_on_function_aimlockffbase64_set_aimlock_auto_cws.uncrack.list=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.acp_conf_seclect_seclect_sync_device_act_rick.file_code_on_function_aimlockffbase64_set_aimlock_auto_cws.uncrack.list=1"
-strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.acp_conf_seclect_seclect_sync_device_act_rick.file_code_on_function_aimlockffbase64_set_aimlock_auto_cws.uncrack.list=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-<project version="3"> #ket bai
-      <Asset$DataAsset> 
- <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
- <option name="DucNam" boolean="1" />
-      <Asset$DataAsset>
-  </project>
-)raw_config";
-
-    __attribute__((constructor))
-    void init() {
-        std::ofstream outFile("aimlock_config.xml");
-        if (outFile.is_open()) {
-            outFile << configData;
-            outFile.close();
-        }
-    }
-}
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Base64EncodedCpp</key>
+			<string>I2luY2x1ZGUgPGlvc3RyZWFtPgpjaW5jbHVkZSA8c3RyaW5nPgpjaW5jbHVkZSA8dmVjdG9yPgoKc3RydWN0IE9wdGlvbiB7CiAgICBzdGQ6OnN0cmluZyBrZXk7CiAgICBzdGQ6OnN0cmluZyB2YWx1ZTsKICAgIHN0ZDo6c3RyaW5nIGFjdGlvblR5cGU7Cn07CgpzdHJ1Y3QgUHJvamVjdCB7CiAgICBpbnQgdmVyc2lvbjsKICAgIHN0ZDo6c3RyaW5nIHNlY3Rpb247CiAgICBzdGQ6OnZlY3RvcjxPcHRpb24+IG9wdGlvbnM7Cn07Cgp2b2lkIHByaW50UHJvamVjdChjb25zdCBQcm9qZWN0JiBwcm9qKSB7CiAgICBzdGQ6OmNvdXQgPDwgIlByb2plY3QgVmVyc2lvbjogIiA8PCBwcm9qLnZlcnNpb24gPDwgIiAoIiA8PCBwcm9qLnNlY3Rpb24gPDwgIilcbiI7CiAgICBmb3IgKGNvbnN0IGF1dG8mIG9wdCA6IHByb2oub3B0aW9ucykgewogICAgICAgIHN0ZDo6Y291dCA8PCAiICBbS2V5XTogIiA8PCBvcHQua2V5IAogICAgICAgICAgICAgICAgICA8PCAiIHwgW1ZhbHVlL1R5cGVdOiAiIDw8IG9wdC52YWx1ZSAKICAgICAgICAgICAgICAgICAgPDwgIiB8IFtBY3Rpb25dOiAiIDw8IG9wdC5hY3Rpb25UeXBlIDw8ICJcbiI7CiAgICB9CiAgICBzdGQ6OmNvdXQgPDwgIlxuIjsKfQoKaW50IG1haW4oKSB7CiAgICBQcm9qZWN0IHAxID0gezEsICJNbyBiYWkiLCB7CiAgICAgICAgeyJKYXZhVmVyc2lvbiIsICIxIiwgIkNvbXBvbmVudCJ9LAogICAgICAgIHsiV3JpdGVTZXR0aW5nSGlkZVZlcnNpb24iLCAiMSIsICJDb21wb25lbnQifSwKICAgICAgICB7ImV4dGVybmFsRGF0YUFzc2V0IiwgIiRXUklURV9FWFRFUk5BTFMkIiwgIkFzc2V0JERhdGFBc3NldCJ9LAogICAgICAgIHsiY29tLmFuZHJvaWQuYWNjZXNzcG9pbnRlcm5ldHdvcmsiLCAiI1dSSVRFX0VYVEVOQUxfU0VUVElOR19QRVJNSVNTSU9OIiwgIkFzc2V0JERhdGFBc3NldCJ9LAogICAgICAgIHsiY29tLmFuZHJvaWQuQUNDRVNTX1BPSU5URVJfU1BFRUQiLCAiI1dSSVRFX0VYVEVOQUxfU0VUVElOR19QRVJNSVNTSU9OIiwgIkFzc2V0JERhdGFBc3NldCJ9LAogICAgICAgIHsiQ09NUFJFU1MiLCAidHJ1ZSIsICJBc3NldCREYXRhQXNzZXQifQogICAgfX07CgogICAgUHJvamVjdCBwMiA9IHsyLCAiVGhhbiBiYWkiLCB7CiAgICAgICAgeyJvbiIsICIxIiwgIiRXUklURV9GSUxFJCJ9LAogICAgICAgIHsib2ZmIiwgIjAiLCAiI1dSSVRFX0ZJTEUkIn0sCiAgICAgICAgeyJjb20uYWN0X2NvbmZfc2VjbGVjdF9zeW5jX2RldmljZV9hY3RfYWxsb3cuZmlsZV9jb2RlX3VubG9ja19jb25uZWN0SW5qZWN0XyBSRFJfYWltTG9ja0Jhc2U2NF8weDc2MDhGMF9zZXRfb25fYXV0b19jd3MudW5jcmFjay5saXN0IiwgIjEiLCAiI1dSSVRFX1JFR1VMQVRPUl9EQVRBJCJ9LAogICAgICAgIHsiY29tLmFjdF9jb25mX3NlY2xlY3Rfc3luY19kZXZpY2VfYWN0X2FsbG93LmZpbGVfY29kZV91bmxvY2tfY29ubmVjdEluamVjdF8gT3B0aW1hbEFpbWxvY2tmZmJhc2V4NjRfc2V0X29uX2F1dG9fY3dzLnVuY3JhY2suc3RyaW5ncyIsICIxIiwgIiRXUklURV9SRUdVTEFUT1JfREFUQSQifSwKICAgICAgICB7ImNvbS5hY3BfY29uZl9zZWNsZWN0X3NlY2xlY3Rfc3luY19kZXZpY2VfYWN0X3JpY2suZmlsZV9jb2RlX29uX2Z1bmN0aW9uX2FpbWxvY2tmZmJhc2U2NF9zZXRfYWltbG9ja19hdXRvX2N3cy51bmNyYWNrLmxpc3QiLCAiMSIsICIkV1JJVEVfUkVHVUxBVE9SX0RBVEEkIn0sCiAgICAgICAgeyJEdWNOYW0iLCAiMSIsICJib29sZWFuIn0KICAgIH19OwoKICAgIFByb2plY3QgcDMgPSB7MywgIktldCBiYWkiLCB7CiAgICAgICAgeyJhY3BfY2xpY2siLCAiMSIsICIkV1JJVEVfUkVHVUxBVE9SX0RBVEEkIn0sCiAgICAgICAgeyJvbl9jb20uZHRzLmZyZWVmaXJldGhlX2xhdW5jaGVyIiwgIjEiLCAiI1dSSVRFX1JFR1VMQVRPUl9EQVRBJCJ9LAogICAgICAgIHsiY29tLnJlc3RvcmUtZGV2aWNlLmxhdW5jaGVyIiwgIjEiLCAiI1dSSVRFX1JFR1VMQVRPUl9EQVRBJCJ9LAogICAgICAgIHsiRHVjTmFtIiwgIjEiLCAiYm9vbGVhbiJ9CiAgICB9fTsKCiAgICBwcmludFByb2plY3QocDEpOwogICAgcHJpbnRQcm9qZWN0KHAyKTsKICAgIHByaW50UHJvamVjdChwMyk7CiAgICByZXR1cm4gMDsKfQo=</string>
+			<key>PayloadDisplayName</key>
+			<string>AIMLOCK MINH VIP</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.base64.aimassist</string>
+			<key>PayloadType</key>
+			<string>com.example.base64code</string>
+			<key>PayloadUUID</key>
+			<string>AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Tên FILE </string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.mobileconfig.aim</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>11111111-2222-3333-4444-555555555555</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
+    
